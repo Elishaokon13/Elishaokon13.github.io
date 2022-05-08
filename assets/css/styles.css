@@ -359,7 +359,7 @@ img {
 }
 
 /* ===== CONTACT =====*/
-.contact__input[type="submit"] {
+.contact__input {
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
