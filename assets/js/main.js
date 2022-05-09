@@ -54,24 +54,25 @@ sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
-/*============== ACCORDION SKILLS =============*/
-const skillsContent = document.getElementsByClassName('skills__content'),
-    skillsHeader = document.querySelectorAll('.skills__header');
+/*============== QUALIFICATION TABS =============*/
+const tabs = document.querySelectorAll('[data-target]'),
+    tabContents = document.querySelectorAll('[data-content]')
 
-function toggleSkills() {
-    let itemClass = this.parentElement.className;
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+        const target = document.querySelector(tab.dataset.target)
 
-    for (i = 0; i < skillsContent.length; i++) {
-        skillsContent[i].className = 'skills__content skills__close';
-    }
+        tabContents.forEach(tabContent => {
+            tabContent.classList.remove('qualification__active')
+        })
+        target.classList.add('qualification__active');
 
-    if (itemClass == 'skills__content skills__close') {
-        this.parentElement.className = 'skills__content skills__open';
-    }
-}
+        tabs.forEach(tab => {
+            tab.classList.remove('qualification__active')
+        })
 
-skillsHeader.forEach(element => {
-    element.addEventListener('click', toggleSkills)
+        tab.classList.add('qualification__active')
+    })
 })
 /*=======email=======*/
 function SendMail() {

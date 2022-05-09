@@ -364,6 +364,14 @@ img {
   border-radius: .5rem;
 }
 /*==================== QUALIFICATIONS =====================*/
+.qualification__container {
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.qualification__subtitle {
+  margin-bottom: var(--mb-2);
+}
 
 .qualification__tabs {
     display: flex;
