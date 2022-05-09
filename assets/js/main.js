@@ -54,6 +54,26 @@ sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
+/*============== ACCORDION SKILLS =============*/
+const skillsContent = document.getElementsByClassName('skills__content'),
+    skillsHeader = document.querySelectorAll('.skills__header');
+
+function toggleSkills() {
+    let itemClass = this.parentElement.className;
+
+    for (i = 0; i < skillsContent.length; i++) {
+        skillsContent[i].className = 'skills__content skills__close';
+    }
+
+    if (itemClass == 'skills__content skills__close') {
+        this.parentElement.className = 'skills__content skills__open';
+    }
+}
+
+skillsHeader.forEach(element => {
+    element.addEventListener('click', toggleSkills)
+})
+/*=======email=======*/
 function SendMail() {
   var params ={
     from_name : document.getElementById("fullName").value,
@@ -61,6 +81,6 @@ function SendMail() {
     message : document.getElementById("message").value
   }
   emailjs.send("service_svdyu63", "template_zhck254", params).then(function(res) {
-    alert("Success! " + res.status);
+    alert("Your message has been sent successfully. " + res.status);
   })
 } 
