@@ -371,6 +371,18 @@ img {
   width: 85%;
 }
 
+.skills__solidity {
+  width: 75%;
+}
+
+.skills__react {
+  width: 80%;
+}
+
+.skills__nodejs {
+  width:85%;
+}
+
 .skills__img {
   border-radius: .5rem;
 }
