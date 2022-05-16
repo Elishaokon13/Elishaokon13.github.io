@@ -56,7 +56,7 @@ sr.reveal('.home__social-icon',{ interval: 200});
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
 
 /*============== ACCORDION SKILLS =============*/
-const skillsContent = document.getElementsByClassName('skills__content'),
+/*==const skillsContent = document.getElementsByClassName('skills__content'),
     skillsHeader = document.querySelectorAll('.skills__header');
 
 function toggleSkills() {
