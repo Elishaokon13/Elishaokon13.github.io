@@ -100,11 +100,6 @@ img {
 
 /*===== LAYOUT =====*/
 
-
-.grid {
-    display: grid;
-    gap: 1.5rem;
-}
 .bd-grid {
   max-width: 1024px;
   display: grid;
