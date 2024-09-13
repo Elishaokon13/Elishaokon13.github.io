@@ -19,7 +19,7 @@ const Experience = () => {
           </p>
         </div>
         <div className="flex flex-row relative z-[100] lg:justify-between mt-[30px]">
-          <div className="w-0.5 h-[940px] lg:h-[740px] bg-[#1E90FF1A]"></div>
+          <div className="w-0.5 h-[940px] lg:h-[740px] bg-blue-950"></div>
           <div className={`flex flex-col space-y-[60px]`}>
 
             {/* EthSafari - Base Representative */}

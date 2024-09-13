@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <section className="mx-[30px] mt-[60px] pb-[50px] lg:mx-[76px] lg:mt-[150px]">
       {/* line */}
-      <div className="lg:max-w-[13000px] lg:mx-[71px] h-[2px] mt-[63.37px] bg-[#0A1C20]"></div>
+      <div className="lg:max-w-[13000px] lg:mx-[71px] h-[2px] mt-[63.37px] bg-white"></div>
       <div className="mt-[63px] flex flex-col md:flex md:flex-row justify-between items-center ">
         <div className="flex items-center gap-[10px]">
           <span>
