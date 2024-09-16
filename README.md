@@ -2,7 +2,7 @@
 
 ![DefiDevrel's Portfolio Screenshot](./public/images/cover.png)
 
-Welcome to my personal portfolio! This project showcases my frontend development skills and projects I've worked on. Feel free to explore the different sections to learn more about me and my work.
+Welcome to my portfolio! This project showcases my front-end development skills and projects I've worked on. Feel free to explore the different sections to learn more about me and my work.
 
 ## Technologies Used
 
@@ -17,13 +17,13 @@ Welcome to my personal portfolio! This project showcases my frontend development
 - Responsive design: The portfolio is fully responsive to ensure a seamless experience on different devices.
 - Smooth animations: Framer Motion is used to add elegant animations and transitions.
 - Easy navigation: React Router allows for smooth navigation between different sections of the portfolio.
-- Project showcase: A dedicated section to showcase my projects with descriptions and links.
-- Contact information: Users can easily get in touch with me through provided contact details.
+- Project Showcase: A dedicated section to showcase my projects with descriptions and links.
+- Contact information: Users can easily get in touch with me through the provided contact details.
 
 ## Installation and Setup
 
 1. Clone this repository to your local machine using `git clone`.
-2. Navigate to the project directory: `cd DefiDevrel`.
+2. Navigate to the project directory: `cd Elishaokon13.github.io`.
 3. Install project dependencies using `npm install`.
 4. Start the development server: `npm run dev`.
 5. Open your web browser and navigate to `http://localhost:5173` to view the portfolio.
@@ -36,16 +36,8 @@ Feel free to customize this portfolio to showcase your own projects and skills. 
 
 If you have any questions or would like to get in touch, you can reach me at:
 
-- Email: victoluolatunji@gmail.com
-- GitHub: [Vitorola-coder](https://github.com/Elishaokon13)
+- Email: defidevrel@gmail.com
+- GitHub: [Elishaokon13](https://github.com/Elishaokon13)
 - Portfolio: [preview](https://www.DefiDevrel.xyz)
 
 Thank you for visiting my portfolio!
-
-## Todos
-
-- add few sleazy animation.
-- change the experience section into an array and map it.
-- change the services section into an array and map it.
-- 404 page - done ✔✔
-- more features yet to come.
