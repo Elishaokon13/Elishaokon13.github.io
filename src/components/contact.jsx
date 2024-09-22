@@ -55,7 +55,7 @@ const Contact = () => {
             defidevrel@gmail.com
           </a>
         </div>
-        <div className="flex flex-col items-center gap-[10px]">
+        {/* <div className="flex flex-col items-center gap-[10px]">
           <div className="bg-gradient-to-r to-[#CFFAFF] from-[#CFFAFF00] pr-[1px] pt-[1px] max-w-[75px] max-h-[50px]">
             <PhoneIcon
               className={`w-[30px] h-[30px] p-2 md:p-[5px] bg-[#003366] md:w-[36px] md:h-[36px]`}
@@ -67,7 +67,7 @@ const Contact = () => {
           >
             +2349032632415
           </a>
-        </div>
+        </div> */}
         {/* <div className="flex flex-col items-center gap-[10px]">
           <div className="bg-gradient-to-l from-[#CFFAFF] to-[#CFFAFF00] pr-[1px] pt-[1px] max-w-[75px] max-h-[75px]">
             <LocationIcon
