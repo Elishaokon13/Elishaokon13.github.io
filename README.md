@@ -1,4 +1,4 @@
-# DefiDevrel - Personal Portfolio Website
+# DefiDevrel - Personal Portfolio Website cc: Vicky Jay
 
 ![DefiDevrel's Portfolio Screenshot](./public/images/cover.png)
 
@@ -36,16 +36,8 @@ Feel free to customize this portfolio to showcase your own projects and skills. 
 
 If you have any questions or would like to get in touch, you can reach me at:
 
-- Email: victoluolatunji@gmail.com
-- GitHub: [Vitorola-coder](https://github.com/Elishaokon13)
+- Email: defidevrel@gmail.com
+- GitHub: [DefiDevrel](https://github.com/Elishaokon13)
 - Portfolio: [preview](https://www.DefiDevrel.xyz)
 
 Thank you for visiting my portfolio!
-
-## Todos
-
-- add few sleazy animation.
-- change the experience section into an array and map it.
-- change the services section into an array and map it.
-- 404 page - done ✔✔
-- more features yet to come.
