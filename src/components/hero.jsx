@@ -9,7 +9,7 @@ const Hero = () => {
           <div>
             <div className={`gradientText`}>
               <h1>
-                Developer Relations Enginner<span>.</span>
+                Developer Advocate<span>.</span>
               </h1>
             </div>
             <p
